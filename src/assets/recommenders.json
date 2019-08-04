@@ -1,0 +1,155 @@
+{
+   "levels":[
+      {
+         "id":"level1",
+         "details":{
+            "type":"multiselect",
+            "values": [
+            "ute",
+            "van",
+            "hatchback",
+            "sedan"
+            ],
+            "name":"Type of vehicle",
+            "key":"type_of_vehicle"
+         }
+      },
+      {
+         "id":"level2",
+         "details":{
+            "type":"Multiselect",
+            "values":[
+               "20-25k",
+               "25-30k",
+               "30-40k",
+               ">40k"
+            ],
+            "name":"Up front Cost ($)",
+            "key":"upfront_cost"
+         }
+      },
+      {
+         "id":"level3",
+         "details":{
+            "type":"MultiSelect",
+            "values":[
+               "400-500",
+               "500-600",
+               "600-700",
+               ">800"
+            ],
+            "name":"Average Insurance Cost/ Year ($)",
+            "key":"average_insurance_cost"
+         }
+      },
+      {
+         "id":"level4",
+         "details":{
+            "type":"MultiSelect",
+            "values":[
+               "<500",
+               "500-1000",
+               ">1000"
+            ],
+            "name":"Average Maintenance Cost/ Year ($)",
+            "key":"average_maintanence_cost"
+         }
+      },
+     {
+       "id":"level5",
+       "details":{
+         "type":"MultiSelect",
+         "values":[
+           "10-12.5K",
+           "12.5-15K",
+           "15-20K",
+           "> 20K"
+         ],
+         "name":"Average Residual Value on completion of 4-5 years ($)",
+         "key":"average_maintanence_cost"
+       }
+     },
+     {
+       "id":"level6",
+       "details":{
+         "type":"multiselect",
+         "values":[
+           "< 50 Kms",
+           "50-100 Kms",
+           "> 100 Kms"
+         ],
+         "name":"Daily usage",
+         "key":"daily_usage"
+       }
+     },
+     {
+       "id":"level7",
+       "details":{
+         "type":"multiselect",
+         "values":[
+           "< 5 Kms",
+           "5-10 Kms",
+           "> 10 Kms"
+         ],
+         "name":"Fuel station availability",
+         "key":"fuel_station_availability"
+       }
+     },
+     {
+       "id":"level8",
+       "details":{
+         "type":"multiselect",
+         "values":[
+           "< 4",
+           "4-10",
+           "10-16",
+           ">16"
+         ],
+         "name":"Fuel price for 100 km ($)",
+         "key":"fuel_price_100"
+       }
+     },
+     {
+       "id":"level9",
+       "details": {
+         "type":"multiselect",
+         "values": [
+           "< 100",
+           "100- 150",
+           "150-200",
+           "> 200"
+         ],
+         "name": "Co2 Emission G/Km",
+         "key":"co2_emission"
+       }
+     },
+     {
+       "id":"level10",
+       "details": {
+         "type":"multiselect",
+         "values": [
+           "> 15",
+           "10-15",
+           "5-10",
+           "< 5"
+         ],
+         "name": "Fuel Economy (L/100 Km)",
+         "key":"fuel_economy"
+       }
+     },
+     {
+       "id":"level11",
+       "details": {
+         "type":"multiselect",
+         "values": [
+           "> 15",
+           "10-15",
+           "5-10",
+           "< 5"
+         ],
+         "name":"Maintenance Cost",
+         "key":"maintenence_cost"
+       }
+     }
+   ]
+}

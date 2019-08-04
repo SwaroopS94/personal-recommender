@@ -1,0 +1,63 @@
+{
+"petrol": {
+  "levels": {
+    "level1":["hatchback","sedan"],
+    "level2":["20-25k","25-30k"],
+    "level3":["400-500","500-600"],
+    "level4":[],
+    "level5":["10-12.5k"],
+    "level6":[],
+    "level7":["<5kms","5-10kms",">10kms"],
+    "level8":[">16"],
+    "level9":["150-200",">200"],
+    "level10":[">15"],
+    "level11":[">15"]
+  },
+  "selected": false
+},
+  "diesel": {
+    "levels": {
+      "level1":["hatchback","sedan","ute","van"],
+      "level2":["20-25k","25-30k","30-40k"],
+      "level3":["500-600","600-800"],
+      "level4":["500-1000",">1000"],
+      "level5":["12.5-15K","15-20K"],
+      "level6":["<50Kms","50-100Kms",">100Kms"],
+      "level7":["<5kms","5-10kms",">10kms"],
+      "level8":["10-16"],
+      "level9":["100-150","150-200",">200"],
+      "level10":["10-15"],
+      "level11":["10-15"]
+    }
+  },
+  "hybrid": {
+    "levels": {
+      "level1":["hatchback","sedan"],
+      "level2":["25-30k","30-40k"],
+      "level3":["500-600","600-800"],
+      "level4":["500-1000"],
+      "level5":["12.5-15k","15-20k"],
+      "level6":["<50Kms","50-100Kms",">100Kms"],
+      "level7":["<5kms","5-10kms",">10kms"],
+      "level8":["4-10"],
+      "level9":["100-150"],
+      "level10":["5-10"],
+      "level11":["5-10"]
+    }
+  },
+  "electric": {
+    "levels": {
+      "level1":["hatchback","sedan"],
+      "level2":[">40k"],
+      "level3":[">800"],
+      "level4":["<500",">1000"],
+      "level5":[">20k"],
+      "level6":["<50Kms"],
+      "level7":[">10kms"],
+      "level8":["<4"],
+      "level9":["<100"],
+      "level10":["<5"],
+      "level11":["<5"]
+    }
+  }
+}
